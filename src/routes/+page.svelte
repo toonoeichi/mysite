@@ -4,7 +4,10 @@
 	  import Layout from './+layout.svelte';
 
     let title = ''; // Reactive variable for the dynamic title
-    const fullTitle = "ToonStoryTime (ToonNongAoey)'s Site"; // The full title you want to display
+    const fullTitle = "ToonStoryTime (ToonOeiChi)'s Site"; // The full title you want to display
+    const branch = 'main';  // specify the branch you want to fetch commits from
+    const owner = 'toonoeichi';  // specify the owner of the repository
+    const repo = 'mysite';
 
     let isVisible = false;
 
@@ -20,9 +23,9 @@
 
   let commitMessage = 'Loading...';
   let commitDate = '';
-  let commitURI = 'https://github.com/toonnongaeoy/mysite'
-  $: commitGUI_URI = `https://github.com/toonnongaeoy/${repo}/commits/${branch}`;
-  let commitUser_URI = 'https://github.com/toonnongaeoy';
+  let commitURI = `https://github.com/${owner}/${repo}`;  
+  $: commitGUI_URI = `https://github.com/${owner}/${repo}/commits/${branch}`;
+  let commitUser_URI = 'https://github.com/toonoeichi';
   let commitUser = 'toonnongaeoy';
   let feed = [
     {
@@ -31,10 +34,6 @@
       "date": "21/09/1978"
     },
   ]
-
-  const branch = 'main';  // specify the branch you want to fetch commits from
-  const owner = 'toonnongaeoy';
-  const repo = 'mysite';
 
     // Function to format date to DD/MM/YYYY
     /**
@@ -261,7 +260,7 @@ function toggleHiddenRow() {
           <span>Maybe you will like this.</span>
         </div>
         <div class={`m-3 h-0.5 divider`}> </div>
-        <span><a href="https://wtlyrics.toonstorytime.me">What the lyrics?</a> --- <a href="/button">88x31 Button</a> --- <a href="https://go.toonstorytime.me/pinterest">Pinterest</a></span>
+        <span><a href="https://wtlyrics.toonstorytime.me">What the lyrics?</a> --- <a href="/button">88x31 Button</a> --- <a href="https://pin.aoeyoei.xyz">Pinterest</a></span>
         <div class={`m-3 h-0.5 divider`}> </div>
         <div class="inline">
           <span class="font-bold">୨୧ Retro Site | </span>
@@ -269,7 +268,7 @@ function toggleHiddenRow() {
         </div>
         <div class={`m-3 h-0.5 divider`}> </div>
         <span>Wanna break for modern age, Click here to go to retro version of this site! (Not quite suitable with your phone!)</span>
-        <a href="http://toonnongaeoy.dino.icu"><img src="retro.svg" alt="Back to retro site!" style="max-width: fit-content;" class="ma_bt"></a>
+        <a href="http://toonnongaeoy.dino.icu"><img src="retro.svg" alt="Back to retro site!" title="Back to retro site!" style="max-width: fit-content;" class="ma_bt"></a>
         <div class={`m-3 h-0.5 divider`}> </div>
         <div class="inline">
           <span class="font-bold">୨୧ Collective | </span>
@@ -277,11 +276,11 @@ function toggleHiddenRow() {
         </div>
         <div class={`m-3 h-0.5 divider`}> </div>
         <p>
-          <a href="https://koinuko.pink"><img class="bto" src="button/koinuko2.gif" alt="My inspiration for all of it."></a>
-          <img class="bto" src="button/imissxp.gif" alt="The Windows Version that we loves the most before some company makes it worse!">
-          <a href="https://technologicalbyte.com"><img class="bto" src="button/tbsite.gif" alt="Inspired for my other site, You can visit this too!"></a>
-          <img class="bto" src="button/tst_old.gif" alt="This site that you currently visting rn.">
-          <a href="https://youtube.com/@toonstorytime"><img class="bto" src="button/youtube.gif" alt="Yeah, I'm on Youtube!"></a>
+          <a href="https://koinuko.pink"><img class="bto" src="button/koinuko2.gif" alt="My inspiration for all of it." title="My inspiration for all of it."></a>
+          <img class="bto" src="button/imissxp.gif" alt="The Windows Version that we loves the most before some company makes it worse!" title="The Windows Version that we loves the most before some company makes it worse!">
+          <a href="https://technologicalbyte.com"><img class="bto" src="button/tbsite.gif" alt="Inspired for my other site, You can visit this too!" title="Inspired for my other site, You can visit this too!"></a>
+          <img class="bto" src="button/tst_old.gif" alt="This site that you currently visting rn." title="This site that you currently visting rn.">
+          <a href="https://youtube.com/@toonstorytime"><img class="bto" src="button/youtube.gif" alt="Yeah, I'm on Youtube!" title="Yeah, I'm on Youtube!"></a>
         </p>
       </div>
     </div>

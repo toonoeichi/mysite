@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
 
     let title = ''; // Reactive variable for the dynamic title
-    const fullTitle = "About Me | ToonStoryTime (ToonNongAoey)'s Site"; // The full title you want to display
+    const fullTitle = "About Me | ToonStoryTime (ToonOeiChi)'s Site"; // The full title you want to display
 
     /**
     @param {number} i
