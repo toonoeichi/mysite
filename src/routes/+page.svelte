@@ -175,7 +175,7 @@ function toggleHiddenRow() {
   <div class="container mx-auto px-4">
     <div class="inline">
       <span class="text-3xl font-bold">Hi! 👋</span>
-      <span class="text-xl">ToonStoryTime (ToonNongAeoy) have been reconstruct this site recently! And (almost) finally ready to operate again!</span>
+      <span class="text-xl">ToonStoryTime (ToonOeiChi) have been reconstruct this site recently! And (almost) finally ready to operate again!</span>
       <span role="button" on:click={toggleHiddenRow} on:keydown={handleKeydown} class="cursor-pointer" tabindex="0">(Click here to read about the changes.)</span>
     </div>
     <div id="st" class={`mt-2 mb-2 ${isVisible ? 'block' : 'hidden'}`}>
@@ -261,6 +261,7 @@ function toggleHiddenRow() {
         </div>
         <div class={`m-3 h-0.5 divider`}> </div>
         <span><a href="https://wtlyrics.toonstorytime.me">What the lyrics?</a> --- <a href="/button">88x31 Button</a> --- <a href="https://pin.aoeyoei.xyz">Pinterest</a></span>
+        <span><a href="/branding">Branding</a></span>
         <div class={`m-3 h-0.5 divider`}> </div>
         <div class="inline">
           <span class="font-bold">୨୧ Retro Site | </span>

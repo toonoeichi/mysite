@@ -63,9 +63,9 @@ onMount(async () => {
         <span class="text-3xl font-bold">Hi! 👋</span>
         <span class="text-2xl">I'm Kritthapath Yaviraj!</span>
     </div>
-    <p>or you also may know me as CartoonGamerTeamThai , CartoonLovePangKung , ToonWannaMoveOn , ToonStoryTime , ToonNongAeoy and latest name. ToonAoeychi!</p>
+    <p>or you also may know me as CartoonGamerTeamThai , CartoonLovePangKung , ToonWannaMoveOn , ToonStoryTime , ToonNongAeoy and latest name. ToonOeiChi!</p>
     <div class={`m-3 h-0.5 divider`}> </div>
-    <img src="tna_event24.avif" alt="ToonAoeychi in 2024.">
+    <img src="tna_event24.avif" alt="ToonOeiChi in 2024.">
     <div class={`m-3 h-0.5 divider`}> </div>
     <p>A 17 years old kids in Thailand studying 3rd Year Vocational Certificate in Computer Business
         at Dusit Commercial Nonthaburi Vocational College that Interested in Web Developing,
@@ -87,7 +87,7 @@ onMount(async () => {
                 <span>- <a href="https://blog.toonstorytime.me">Blog Site</a> My blog site</span>
                 <span>- <a href="https://tree.toonstorytime.me">Tree's Site</a> My linktree.</span>
                 <span>- <a href="https://wtlyrics.toonstorytime.me">What the Lyrics?</a> My lyrics site with all the weird , dirty , and everything that possible in the Lyrics!</span>
-                <span>- <a href="https://github.com/toonnongaeoy/rosepine-discord-newthemes">Rosé Pine for Discord (But in diffrent fonts)</a> Yeah, like the name suggest, and also add Rosé Pine Moon (that I like.)</span>
+                <span>- <a href="https://github.com/toonoeichi/rosepine-discord-newthemes">Rosé Pine for Discord (But in diffrent fonts)</a> Yeah, like the name suggest, and also add Rosé Pine Moon (that I like.)</span>
                 <span>- <a href="https://thai.hackclub.com">Hack Club Thai Translation Site.</a> Yeah, contribute on <a href="https://github.com/hackclub/global" style="color: black;">hackclub/global</a></span>
             </div>
             <div class="flex flex-col max-w-sm w-full">

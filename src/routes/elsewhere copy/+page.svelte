@@ -62,8 +62,8 @@
 		<h2 class="text-2xl font-bold">Minecraft</h2>
 		<p>
 			&emsp;- I don't often play public online multiplayer like Hypixel, But you can ask me. My ID
-			right now is <u><b>ToonOeiChi.</b></u> (If you want to add me in to your Realms. Please ask
-			me first.) and for Xbox Live, My ID is <u><b>Cartoon17</b></u> or <u><b>Cartoon176333</b></u>.
+			right now is <u><b>ToonWannaMoveOn.</b></u> (If you want to add me in to your Realms. Please ask
+			me first.) and I don't always play or even paid for Xbox Game Pass. So, ask me first.
 		</p>
 		<h2 class="text-2xl font-bold">
 			<a href="https://www.roblox.com/users/422281521/profile">Roblox</a>
@@ -97,7 +97,7 @@
 				<span class="text-2xl font-bold">Social</span>
 			</div>
 		</div>
-		<h2 class="text-2xl font-bold"><a href="https://fb.com/toonoeichi">Facebook</a></h2>
+		<a href="https://fb.com/toonoeichi"><h2 class="text-2xl font-bold">Facebook</h2></a>
 		<p>
 			&emsp;- I still mostly online on Facebook cause a lot of friends is on there. Registered as <u
 				><b>Cartoon Kritthapath Yaviraj</b></u
@@ -120,10 +120,10 @@
 			>
 			So my ID is <u><b>toon815341.</b></u> Registered as <u><b>ToonNongAeoy.</b></u>
 		</p>
-		<h2 class="text-2xl font-bold"><a href="https://twitter.com/toonoeichi">Twitter</a></h2>
+		<h2 class="text-2xl font-bold"><a href="https://twitter.com/toonnongaeoy">Twitter</a></h2>
 		<p>
 			&emsp;- This one, I also don't use it that much, But you can follow anyways, Registered as <b
-				><u>@toonoeichi.</u></b
+				><u>@toonnongaeoy.</u></b
 			>
 			(And yes, I know it called X. But
 			<b
@@ -134,13 +134,6 @@
 					></i
 				></b
 			> ... I think you got the idea.)
-		</p>
-		<h2 class="text-2xl font-bold"><a href="https://bsky.app/profile/toonstorytime.me">Bluesky</a></h2>
-		<p>
-			&emsp;- New Platform with same creator of Twitter <b><u>(that they got kicked out by some placeholders that brought that and make it like Social As a Service [SAaS])</u></b> Anyways, Registered as <b
-				><u>@toonstorytime.me</u></b
-			>
-			(And it hosted on my own server, in my homelab. In case of unaccessable or anything, just tell me on my e-mail or <b><u>just blame my router or my ISP for that</u></b>.)
 		</p>
 		<h2 class="text-2xl font-bold">
 			<a href="https://discord.com/users/409324079326167043">Discord</a>
